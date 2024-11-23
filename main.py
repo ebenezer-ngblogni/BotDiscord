@@ -15,6 +15,10 @@ async def bonjour(ctx):
     await ctx.send(f"Bonjour {ctx.author} !")
 
 @bot.command()
+async def hey(ctx):
+    await ctx.send(f"hey, are you okay? {ctx.author} !")
+
+@bot.command()
 async def bye(ctx):
     await ctx.send(f"Good night {ctx.author} !")
 
