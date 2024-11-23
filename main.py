@@ -15,7 +15,7 @@ async def bonjour(ctx):
     await ctx.send(f"Bonjour {ctx.author} !")
 
 @bot.command()
-async def hey(ctx):
+async def Hey(ctx):
     await ctx.send(f"hey, are you okay? {ctx.author} !")
 
 @bot.command()
