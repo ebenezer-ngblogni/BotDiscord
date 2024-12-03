@@ -32,7 +32,7 @@ CMD ["docker", "run", \
      "&&", "python", "-m", "g4f.cli", "api", "--gui", "--debug"]
 
 # Étape 7 : Clonage du projet GitHub et récupération du fichier main.py
-RUN git clone https://github.com/VOTRE_URL_GITHUB.git /app/projet
-WORKDIR /app/projet
+RUN git clone https://github.com/ebenezer-ngblogni/BotDiscord.git 
+WORKDIR /app
 CMD ["python", "main.py"]
 
